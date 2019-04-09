@@ -10,6 +10,6 @@ ID = "92ec60c8-a3f4-4b8e-aedd-a48c05b84fe8"
   base    = "/anime-list"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "/anime-list"
+  publish = "/anime-list/build"
   # This will be your default build command
   command = "yarn build"
