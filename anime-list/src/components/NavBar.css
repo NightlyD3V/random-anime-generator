@@ -1,0 +1,104 @@
+
+/*  ██████╗███████╗███████╗
+/* ██╔════╝██╔════╝██╔════╝
+/* ██║     ███████╗███████╗
+/* ██║     ╚════██║╚════██║
+/* ╚██████╗███████║███████║
+/*  ╚═════╝╚══════╝╚══════╝
+/*                          
+*/
+.navBar {
+    background-color: lightslategray;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 10px solid white;
+    border-radius: 0px 0px 0px 0px;
+}
+.navBarText {
+    color: white; 
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    transition-property: font-size;
+    transition-duration: 300ms;
+}
+.navBarText:hover {
+    font-size: 2.5rem;
+}
+.decorativeCircles {
+    display: flex;
+    position: relative; 
+    bottom: 10px;
+    margin-left: 10px;
+}
+.controlButtons {
+    display: flex;
+    align-items: center;
+}
+.buttonRed {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 4px;
+}
+.buttonYellow {
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 4px; 
+}
+.buttonGreen {
+    background-color: greenyellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.backButton {
+    background-color: snow;
+    padding: 10px;
+    margin: 3px;
+    border: none;
+    border-bottom: 5px solid black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    width: 100px;
+}
+.backButton:hover {
+    background-color: black;
+    color: white;
+}
+.nextButton {
+    background-color: snow;
+    padding: 10px;
+    margin-right: 30;
+    border: none;
+    border-bottom: 5px solid black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    width: 100px;
+}
+.nextButton:hover {
+    background-color: black; 
+    color: white;
+}
+.refreshButton {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 100%;
+    transition: transform 1s;
+}
+.refreshButton:hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+    -webkit-box-shadow: 0px 0px 24px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -6px rgba(0,0,0,0.75);
+}
+reloadAnimation {
+    background-color: red;
+}
